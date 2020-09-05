@@ -3,6 +3,17 @@
 
 <aside id="sidebar">
 
+
+        <!-- Buscador-->
+        <div id="buscador" class="block-aside">
+                <h3>Buscador</h3>
+                <!--Mostrar errores de session-->                
+                <form action="buscar.php" method="POST">
+                    <p><input type="text" name="busqueda" id="busqueda" placeholder="Ingrese su busqueda"></p>
+                    <input type="submit" value="Buscar">
+                </form>
+
+            </div>
         <!-- Usuario logueado-->
         <?php if(isset($_SESSION['usuario'])): ?>
             <div id="usuario-logeado" class="block-aside">
