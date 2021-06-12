@@ -1,4 +1,4 @@
-# BLOG CREADO PHP, HTML, CSS Y MYSQL.
+# BLOG CREADO CON PHP, HTML, CSS Y MYSQL.
 
 Este es un blog creado con el lenguaje de programación php utiliza una base de datos mysql y para la parte de UI se hizo uso de HTML y CSS.
 
